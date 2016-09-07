@@ -1,10 +1,75 @@
 /*
 Colors to use:
-dark blue: #06365f
-light blue: #1c5380
+dark blue:
+light blue:
 */
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+    font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    background: url("../images/bgtile.png") repeat-x;
+}
+#container {
+    margin: 90px auto 0;
+    width: 880px;
+}
+.footer {
+    text-align: center;
+    clear: both;
+}
+.textBox img:first-child {
+    margin-right: 20px;
+}
+.iphone {
+    position: relative;
+    float: left;
+    margin: 20px auto 40px auto;
+}
+.logo {
+    float: right;
+    position: relative;
+    right: 190px;
+    top: 5px;
+}
+.textBox {
+    float: right;
+    width: 420px;
+    height: 250px;
+    padding: 40px;
+    position: relative;
+    top: 10px;
+    background: url("../images/frame.png") no-repeat;
+}
+.login {
+    position: relative;
+    float: right;
+    right: -300px;
+    color: white;
+    display: flex;
+    align-content: center;
+    font-weight: 500;
+    top: 20px;
+    background: url("../images/bgtile.png") repeat-x;
+    padding: 5px;
+    font-size: 15px;
+    background: -webkit-linear-gradient(top, rgba(119, 154, 183, 0.6) 0%, rgba(6, 54, 96, 0.8) 100%);
+}
+.login img {
+    margin-right: 10px;
+}
+h1 {
+    color: #06365f;
+}
+footer ul li {
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 20px 5px;
+}
+a {
+    text-decoration: none;
+    color: #779ab7;
 }
